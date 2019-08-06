@@ -2,12 +2,14 @@
   "name": "imperio",
   "version": "1.0.0",
   "description": "End-to-End testing library.",
+  "peerDependencies": {
+    "react": ">= 16.8.6 < 17",
+    "react-dom": ">= 16.8.6 < 17",
+    "styled-components": ">= 4 < 6"
+  },
   "dependencies": {
     "immutable": "3.8.2",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
     "redux": "3.5.2",
-    "styled-components": "3.4.2",
     "uuid": "2.0.2"
   }
 }
